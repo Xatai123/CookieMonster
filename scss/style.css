@@ -1,0 +1,41 @@
+.d-flex, body, #main, #main .cell, #controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body {
+  background: whitesmoke;
+}
+
+#main {
+  width: 700px;
+  height: 700px;
+  background: #2bcc2b;
+}
+
+#main .cell {
+  width: 70px;
+  height: 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px white solid;
+}
+
+#main .cell img {
+  width: 70%;
+  height: 70%;
+}
+
+#controls {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+$size: 700px;
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body {
+    @extend .d-flex;
+    background: whitesmoke;
+}
+
+#main {
+    @extend .d-flex;
+    width: $size;
+    height: $size;
+    background: rgb(43, 204, 43);
+
+    .cell {
+        @extend .d-flex;
+        width: $size/10;
+        height: $size/10;
+        box-sizing: border-box;
+        border: 1px white solid;
+
+        img {
+            width: 70%;
+            height: 70%;
+        }
+    }
+}
+
+#controls {
+    @extend .d-flex;
+    width: 100%;
+}

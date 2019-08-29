@@ -17,14 +17,14 @@ body {
 }
 
 #main {
-  width: 700px;
-  height: 700px;
+  width: 80vmin;
+  height: 80vmin;
   background: #2bcc2b;
 }
 
 #main .cell {
-  width: 70px;
-  height: 70px;
+  width: 8vmin;
+  height: 8vmin;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px white solid;
